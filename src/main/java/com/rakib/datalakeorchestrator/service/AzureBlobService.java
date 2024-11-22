@@ -33,7 +33,7 @@ public class AzureBlobService implements IAzureBlobService {
 
     @Override
     public String uploadFile(InputStream fileStream, String fileName) throws IOException {
-        String blobName = "raw/" + UUID.randomUUID() + "-" + fileName;
+        String blobName = "synapse/workspaces/tts-t-v3-only-data/v3-demo-data/" + UUID.randomUUID() + "-" + fileName;
         BlobClient blobClient = containerClient.getBlobClient(blobName);
 
         try (fileStream) {

@@ -51,6 +51,17 @@
             <artifactId>azure-storage-blob</artifactId>
             <version>12.22.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.azure</groupId>
+            <artifactId>azure-analytics-synapse-artifacts</artifactId>
+            <version>1.0.0-beta.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.azure</groupId>
+            <artifactId>azure-identity</artifactId>
+            <version>1.8.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>
